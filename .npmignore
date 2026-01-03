@@ -1,0 +1,43 @@
+# Source files
+credentials/
+nodes/
+test/
+scripts/
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+jest.config.js
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Development
+*.map
+.cache/
+coverage/
+.nyc_output/
+
+# Git
+.git/
+.gitignore
+.github/
+
+# Keep only dist and essential files
+!dist/
+!package.json
+!README.md
+!LICENSE
+!COMMERCIAL_LICENSE.md
+!LICENSING_FAQ.md
